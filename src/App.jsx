@@ -5,6 +5,7 @@ import ComParametro from "./components/basicos/ComParamestros"
 import NumeroAleatorio from "./components/primeiro/NumeroAleatorio"
 import Modelo from "./components/modelo/Modelo"
 import ListaAlunos from "./components/repeticao/ListaAlunos"
+import imagem1 from './assets/images/lua.jpg'
 
 function App() {
 
@@ -18,7 +19,11 @@ function App() {
       
       <div className="cards">
 
-      <Modelo titulo="Repetição">
+      <Modelo titulo="Inserindo imagem" color="orange">
+        <img src={imagem1} alt="Lua" width={200}/>
+      </Modelo>
+
+      <Modelo titulo="Repetição" color="blue">
         <ListaAlunos/>
       </Modelo>
 

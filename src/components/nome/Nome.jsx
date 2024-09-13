@@ -5,7 +5,7 @@ export default function Nome() {
         <div>
             <h3>Sharlayne Angel Jardini</h3>
             <h3>sha.jardini@gmail.com</h3>
-            <h3>(11)96364-1726</h3>
+            <h3>(11)11111-1111</h3>
         </div>
     )
 }

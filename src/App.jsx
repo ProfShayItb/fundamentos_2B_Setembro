@@ -6,6 +6,7 @@ import NumeroAleatorio from "./components/primeiro/NumeroAleatorio"
 import Modelo from "./components/modelo/Modelo"
 import ListaAlunos from "./components/repeticao/ListaAlunos"
 import imagem1 from './assets/images/lua.jpg'
+import Exercicio from "./components/exercicio/Exercicio"
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
       
       
       <div className="cards">
+      
+      <Modelo titulo="Exercício" color="#67e689">
+        <Exercicio/>
+      </Modelo>
 
       <Modelo titulo="Inserindo imagem" color="orange">
         <img src={imagem1} alt="Lua" width={200}/>

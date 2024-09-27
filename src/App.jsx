@@ -7,6 +7,7 @@ import Modelo from "./components/modelo/Modelo"
 import ListaAlunos from "./components/repeticao/ListaAlunos"
 import imagem1 from './assets/images/lua.jpg'
 import Exercicio from "./components/exercicio/Exercicio"
+import Formulario from "./components/basicos/Formulario"
 
 function App() {
 
@@ -19,6 +20,10 @@ function App() {
       
       
       <div className="cards">
+
+      <Modelo titulo="Manipulando formulário" color="#efe666">
+        <Formulario/>
+      </Modelo>
       
       <Modelo titulo="Exercício" color="#67e689">
         <Exercicio/>
